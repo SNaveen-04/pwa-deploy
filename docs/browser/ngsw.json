@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1730903225297,
+  "timestamp": 1730906152618,
   "index": "/pwa-deploy/browser/index.csr.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "/pwa-deploy/browser/custom-sw.js",
         "/pwa-deploy/browser/favicon.ico",
         "/pwa-deploy/browser/index.html",
-        "/pwa-deploy/browser/main-ZMUSMZKB.js",
+        "/pwa-deploy/browser/main-Z2AQ47BE.js",
         "/pwa-deploy/browser/manifest.webmanifest",
         "/pwa-deploy/browser/polyfills-FFHMD2TL.js",
         "/pwa-deploy/browser/styles-5INURTSO.css"
@@ -80,8 +80,8 @@
     "/pwa-deploy/browser/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/pwa-deploy/browser/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/pwa-deploy/browser/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/pwa-deploy/browser/index.html": "4178815d708338003340a6e7e527efa375d06e69",
-    "/pwa-deploy/browser/main-ZMUSMZKB.js": "ad605859b960594691ef5624a8a3cc212ba33e69",
+    "/pwa-deploy/browser/index.html": "5380ac851c21b6c4a087e2d269bb76833fd3e44b",
+    "/pwa-deploy/browser/main-Z2AQ47BE.js": "ebb5f699e5fab39676b525dd67873127caac1343",
     "/pwa-deploy/browser/manifest.webmanifest": "3bd5885799a96f8f4156cd4c7a26014c76c382a9",
     "/pwa-deploy/browser/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "/pwa-deploy/browser/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
