@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+:host {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #a4dcf8, #4a9bd1);
+}
+
+.signup-card {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    width: 40%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 35px;
+}
+
+.card-title {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.card-title h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0px;
+    color: #5c5c5c;
+}
+
+.form-group input {
+    margin: 8px 0;
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px 0px #c9c9c9;
+}
+
+a{
+    text-decoration: none;
+}
+
+.form-group input[type="submit"] {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 15px;
+    width: 100%;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.card-terms {
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+.card-terms span {
+    margin: 5px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .signup-card {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .card-title h1{
+        font-size: 25px;
+    }
+}

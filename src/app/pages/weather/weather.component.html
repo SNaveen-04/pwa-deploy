@@ -1,0 +1,21 @@
+<div class="weather">
+  <h2>Weather Forecast</h2>
+
+  <div class="form">
+    <form [formGroup]="weatherForm" (ngSubmit)="onSubmit()">
+      <label for="city">Enter City Name:</label>
+      <input id="city" formControlName="city" placeholder="City name" required />
+      <button type="submit">Get Weather</button>
+    </form>
+
+    <div *ngIf="weatherData" class="weather-info">
+      <h3>
+        Weather in {{ weatherData.location.name }}, {{ weatherData.location.country }}
+      </h3>
+      <p>Temperature: {{ weatherData.current.temp_c }} °C</p>
+      <p>Condition: {{ weatherData.current.condition.text }}</p>
+      <img [src]="weatherData.current.condition.icon" alt="Weather Icon" />
+    </div>
+    
+  </div>
+</div>

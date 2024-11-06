@@ -1,0 +1,96 @@
+{
+  "configVersion": 1,
+  "timestamp": 1730902484430,
+  "index": "/pwa-deploy/index.csr.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwa-deploy/custom-sw.js",
+        "/pwa-deploy/favicon.ico",
+        "/pwa-deploy/index.html",
+        "/pwa-deploy/main-ZMUSMZKB.js",
+        "/pwa-deploy/manifest.webmanifest",
+        "/pwa-deploy/polyfills-FFHMD2TL.js",
+        "/pwa-deploy/styles-5INURTSO.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwa-deploy/icons/icon-128x128.png",
+        "/pwa-deploy/icons/icon-144x144.png",
+        "/pwa-deploy/icons/icon-152x152.png",
+        "/pwa-deploy/icons/icon-192x192.png",
+        "/pwa-deploy/icons/icon-384x384.png",
+        "/pwa-deploy/icons/icon-512x512.png",
+        "/pwa-deploy/icons/icon-72x72.png",
+        "/pwa-deploy/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api",
+      "patterns": [
+        "\\/api\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 5000,
+      "maxAge": 600000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    },
+    {
+      "name": "login",
+      "patterns": [
+        "\\/api\\/login"
+      ],
+      "strategy": "freshness",
+      "maxSize": 1,
+      "maxAge": 600000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/pwa-deploy/custom-sw.js": "0a69aa6e24747b532ca3196b002618f676cf8987",
+    "/pwa-deploy/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/pwa-deploy/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/pwa-deploy/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/pwa-deploy/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/pwa-deploy/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/pwa-deploy/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/pwa-deploy/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/pwa-deploy/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/pwa-deploy/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/pwa-deploy/index.html": "dce27e09c0f88f9d22f2f7db0339c575db30b969",
+    "/pwa-deploy/main-ZMUSMZKB.js": "ad605859b960594691ef5624a8a3cc212ba33e69",
+    "/pwa-deploy/manifest.webmanifest": "3bd5885799a96f8f4156cd4c7a26014c76c382a9",
+    "/pwa-deploy/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/pwa-deploy/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/login$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
