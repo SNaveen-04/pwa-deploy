@@ -1,8 +1,0 @@
-{
-  "routes": [
-    "/login",
-    "/shell",
-    "/signup",
-    "/weather"
-  ]
-}
